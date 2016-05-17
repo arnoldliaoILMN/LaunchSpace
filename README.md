@@ -158,6 +158,9 @@ Launch app on SampleApp entry with id 14, even if there is not enough yield. Sho
 
 $PYTHON $LAUNCHSPACE/bin/Launcher.py -i 14 -Y -l
 
+Before running Launcher, you would have to create a log dir where all Launch.py will log its output
+mkdir $LAUNCHSPACE/log; 
+
 Run the Tracker
 -----------------------------------------
 
