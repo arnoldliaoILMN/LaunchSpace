@@ -265,7 +265,7 @@ Finally
  you can also opt to apply an operation to all the SampleApps selected by the other arguments:
 
 - Delete (-D)
-- Manually set sample status (-S <newstatus>)
+- Manually set sample status (-S <newstatus>) ( valid status goes from waiting, submitted, running, ?finished?, qc-passed.  It also can have failed,....)
  
 The typical pattern for applying these options would be to first write and test a set of options to get the SampleApps of interest. Then add the -S to set their status.
 
