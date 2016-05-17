@@ -16,7 +16,7 @@ REQUIREMENTS
 - Python2.7
 - A number of Python modules, details in the dependencies.pip file found in the repository
 - sqlite3
-- The BaseSpace Python SDK:
+- The BaseSpace Python SDK: (in a directory above Launchspace)
 
 https://developer.basespace.illumina.com/docs/content/documentation/sdk-samples/python-sdk-overview
 
@@ -47,7 +47,7 @@ The cron-based tools of LaunchSpace need a log directory to write into. By defau
 Initialise local configuration database
 -----------------------------------------
 
-$PYTHON $LAUNCHSPACE/bin/InitialiseDatabase.py
+$PYTHON $LAUNCHSPACE/bin/InstantiateDatabase.py
 
 - This creates a database file in $LAUNCHSPACE/data/db.sqlite
 - If you run the command and a database file already exists, the command will exit with an error
